@@ -13,7 +13,7 @@ Es necesario tener instalados los siguientes software:
 - Datos : https://drive.google.com/drive/folders/1bxyZUNWbmqKhJPV37dP4M-2V-IgQGvJF?usp=sharing (descargar toda la carpeta llamada MIOCARDIO)
 
 ## ¿Cómo correr el proyecto?
-Se puede correr el modelo con el entrenamiento, testing y validación con el archivo proyecto.ipynb. Para cargar los archivos de la base de datos de entrenamiento, testing y validación tienen dos opciones:
+Se puede correr el modelo con el entrenamiento, testing y validación con el archivo proyecto.ipynb. El arhivo .py contienen el mismo codigo que el arhivo .ipynb. Para cargar los archivos de la base de datos de entrenamiento, testing y validación tienen dos opciones:
 
 ### Opcion 1: Google Drive
 Es necesario subir la carpeta MIOCARDIO a la carpeta raiz de su drive para poder cargar los archivos sin tener que editar el código. Si sube los archivos en otra dirección es necesario cambiar el string dado en las funciones de np.load() a la dirección donde ubico los archivos .npy
